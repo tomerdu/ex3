@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer, nav, aside, section
+{
+    display: block;
+}
+
+body
+{
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper-1
+{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+header
+{
+    width: 100%;
+    height: 331px;
+    background-color: rgba(81, 122, 141, 1);
+}
+
+header .Diamond
+{
+    padding-top: 28px;
+    margin-left: 26px;
+}
+
+.nav-1
+{
+    display: flex;
+    background-color: rgba(81, 122, 141, 1) ;
+}
+
+.square-blue
+{
+    width: 272px;
+    height: 57px;
+    background-color: rgba(81, 122, 141, 1);
+}
+
+
+.nav-items-1
+{
+    display: flex;
+}
+
+.nav-items-1 li
+{
+    align-items: center;
+    justify-content:center;
+    list-style: none; 
+}
+
+.nav-items-1 a
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgba(255, 205, 210, 1);
+    width: 242px;
+    height: 57px;
+    text-decoration: none;
+    color: black
+    
+}
+
+#selected-1 a
+{
+    color: white;
+    background-color: rgba(185, 74, 72, 1);
+}
+
+.nav-items-1 li :hover
+{
+    background-color: blueviolet;
+}
+
+.main-1
+{
+    width: 100%;
+    height: 491px;
+    display: flex;
+}
+
+.small-rectangle
+{
+    margin-left: 28px;
+    margin-top: 24px;
+    width: 93px;
+    height: 33px;
+    background-color: rgba(81, 122, 141, 1);
+}
+
+
+.rectangels
+{
+    display: flex;
+    margin-top:31px ;
+    margin-left: 151px;
+}
+
+.rectangle-1
+{
+    width: 335px;
+    height: 389px;
+    background-color: rgba(81, 122, 141, 1);
+}
+
+.rectangle-2
+{
+    width: 338px;
+    height: 338px;
+    margin-left: 25px;
+    background-color: rgba(81, 122, 141, 1);
+}
+
+
+footer
+{
+    height: 121px;
+    background-color: rgba(214, 214, 214, 1);
+}
+
+
+/*-layout2-*/
+
+.wrapper-2
+{
+    width: 100%;
+    width: 1400px;
+    margin: 0px auto;
+}
+
+.wrapper-2 header
+{
+    width: 100%;
+    height: 192px;
+    background-color: black;
+
+}
+
+.nav-2
+{
+    width: 243px;
+    height:1687px;
+    background-color:  rgba(255, 205, 210, 1);
+}
+
+
+.nav-items-2 li
+{
+    list-style: none; 
+    background-color: rgba(255, 205, 210, 1);
+    width: 243px;
+    height: 135px;
+  
+}
+
+.nav-items-2 a
+{
+    display: block;
+    line-height: 135px;
+    height: 135px;
+    text-decoration: none;
+    color: black;
+    padding-left: 6px;
+
+}
+
+.nav-items-2 :hover
+{
+    background-color: blueviolet;
+}
+
+#selected-2
+{
+    pointer-events: none;
+    background-color: rgba(185, 74, 72, 1);
+}
+
+.main-2
+{
+    display: flex;
+    width: 100%;
+    height:1687px;
+}
+
+.components
+{
+    display: flex;
+}
+
+.component-1
+{
+    width: 338px;
+    margin-left: 30px;
+
+}
+
+.component-1 .square-1
+{
+    width: 338px;
+    height: 338px;
+    background-color: rgba(81, 122, 141, 1);
+   
+}
+
+.component-1 .square-2
+{
+    width: 338px;
+    height: 338px;
+    background-color: rgba(81, 122, 141, 1);
+    margin-top: 120px;
+}
+
+.component-1 .square-3
+{
+    width: 338px;
+    height: 338px;
+    background-color: rgba(81, 122, 141, 1);
+    margin-top: 48px;
+}
+
+.component-2
+{
+    width: 338px;
+    margin-left: 30px;
+}
+
+.component-2 .square-4
+{
+    width: 338px;
+    height: 338px;
+    background-color: rgba(81, 122, 141, 1);
+    
+}
+
+.component-2 .black-square
+{
+    width: 338px;
+    height: 217px;
+    background-color: black;
+    margin-top: 120px;
+}
+
+.component-2 .square-5
+{
+    width: 338px;
+    height: 338px;
+    background-color: rgba(81, 122, 141, 1);
+}
+
+.component-3
+{
+    width: 339px;
+    height: 1687px;
+    margin-left: 82px;
+    background-color: rgba(255, 205, 210, 1);
+
+}
+
+.component-3 .blue-rec
+{
+    Width: 128px;
+    Height: 338px;
+    background-color: rgba(192, 208, 229, 1);
+    margin-top:66px;
+    margin-left: 170px;
+}
+
+.component-3 .pink-rec
+{
+    width: 339px;
+    height: 1124px;
+    background-color: rgba(255, 205, 210, 1);
+}
+
+.component-3 .blue-squ
+{
+    Width: 128px;
+    Height: 125px;
+    background-color: rgba(192, 208, 229, 1);
+    margin-left: 106px;
+}
+
+
+.footer-2
+{
+    width: 1400px;
+    height: 121px;
+    background-color: rgba(214, 214, 214, 1);
+}
+
+
+
+
+
+
+
