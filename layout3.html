@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tomer Duchovni - layout3</title>
+</head>
+
+<body id="body-3">
+    <div class="wrapper-3">
+        <header>
+            <div class="left-side">
+                <div class="Diamond-3">
+                    <img src="./images/Diamond.png" alt="logo">
+                </div>
+                <div id="button">
+                    <button class="plus" value="+" onclick="dosome(this)">+</button>
+                </div>
+                <nav class="nav-3">
+                    <ul class="nav-items-3">
+                        <li><a href="index.html">Layout 1</a></li>
+                        <li><a href="layout2.html">Layout 2</a></li>
+                        <li class="selected"><a href="# ">Layout 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-side">
+                <div class="o1" onclick="changeColor(this)"></div>
+                <div class="o2" onclick="changeColor(this)"></div>
+                <div class="o3" onclick="changeColor(this)"></div>
+                <div class="o4" onclick="changeColor(this)"></div>
+            </div>
+        </header>
+        <main id="main-3">
+        </main>
+        <footer class="footer-3">
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        window.onload = add_squares();
+    </script>
+</body>
+
+</html>
